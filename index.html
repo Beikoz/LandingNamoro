@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carol - Mi amor of the my life</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cu.scss">
+</head>
+<body class="gradient-romantic">
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="decorative-heart top-left animate-float">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+            </svg>
+        </div>
+        <div class="decorative-heart bottom-right animate-float" style="animation-delay: 1s;">
+            <svg width="50" height="50" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+            </svg>
+        </div>
+
+        <div class="hero-content">
+            <h1 class="animate-heartbeat">Carol</h1>
+            <p class="subtitle">Mi amor of the my life</p>
+            <div class="heart-row">
+                <svg class="animate-heartbeat" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+                <svg class="animate-heartbeat" style="animation-delay: 0.2s;" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+                <svg class="animate-heartbeat" style="animation-delay: 0.4s;" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+            </div>
+        </div>
+
+        <div class="counter-card glow-accent-lg">
+            <p class="counter-title">Contando cada segundo ao seu lado, minha princesa</p>
+            <div class="counter-grid">
+                <div class="counter-item">
+                    <div id="days" class="counter-value">00</div>
+                    <p class="counter-label">Dias</p>
+                </div>
+                <div class="counter-item">
+                    <div id="hours" class="counter-value">00</div>
+                    <p class="counter-label">Horas</p>
+                </div>
+                <div class="counter-item">
+                    <div id="minutes" class="counter-value">00</div>
+                    <p class="counter-label">Minutos</p>
+                </div>
+                <div class="counter-item">
+                    <div id="seconds" class="counter-value">00</div>
+                    <p class="counter-label">Segundos</p>
+                </div>
+            </div>
+        </div>
+
+        <p class="quote">"Você é minha Deusa, meu amor eterno, minha razão de ser feliz"</p>
+    </section>
+
+    <!-- Photo Gallery Section -->
+    <section class="gallery-section">
+        <div class="container">
+            <h2>Fotinhas</h2>
+            
+            <div class="carousel-container">
+                <div class="carousel-main glow-accent-lg">
+                    <img id="main-photo" src="images/Carol.jpg" alt="Nosso momento especial">
+                    <div class="carousel-overlay"></div>
+                    <button id="prev-photo" class="carousel-btn prev">←</button>
+                    <button id="next-photo" class="carousel-btn next">→</button>
+                </div>
+                <div id="photo-counter" class="counter-text">1 / 7</div>
+            </div>
+
+            <div id="thumbnail-gallery" class="thumbnail-grid">
+                <!-- Thumbnails will be injected by JS -->
+            </div>
+
+            <div class="romantic-text-card">
+                <p>Cada momento com você é um tesouro, <span class="accent-text">mi amor</span></p>
+                <p class="subtext">Você é minha princesa, minha Deusa, minha razão de existir.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Instagram Collagen Section -->
+    <section class="instagram-section">
+        <div class="container">
+            <h2>Fotinhas do insta</h2>
+            
+            <div class="carousel-container">
+                <div class="carousel-main glow-accent-lg">
+                    <img id="main-collagen" src="images/Captura de tela 2026-01-14 182415.png" alt="Colagem do Instagram">
+                    <div class="carousel-overlay"></div>
+                    <button id="prev-collagen" class="carousel-btn prev">←</button>
+                    <button id="next-collagen" class="carousel-btn next">→</button>
+                </div>
+                <div id="collagen-counter" class="counter-text">1 / 5</div>
+            </div>
+
+            <div id="collagen-thumbnail-gallery" class="thumbnail-grid collagen-thumbs">
+                <!-- Collagen thumbnails will be injected by JS -->
+            </div>
+
+            <div class="romantic-text-card">
+                <p>Compartilhando nosso amor com o mundo, <span class="accent-text">minha princesa</span></p>
+                <p class="subtext">Cada post é uma declaração do meu amor por você.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="video-section">
+        <div class="container">
+            <h2>Video que me deixou fudido</h2>
+            <div class="video-container glow-accent-lg">
+                <video controls poster="images/Carol.jpg">
+                    <source src="images/WhatsApp Video 2025-12-21 at 20.27.07.mp4" type="video/mp4">
+                    Seu navegador não suporta vídeo HTML5.
+                </video>
+            </div>
+            <p class="video-caption">Rir junto de você é o melhor presente que a vida me deu</p>
+        </div>
+    </section>
+
+    <!-- Comparison Section -->
+    <section class="comparison-section">
+        <div class="container">
+            <h2 class="alinhar" >Nós vs. Os Outros</h2>
+            <p class="comparison-subtitle">Somos incomparavelmente melhores ❤️</p>
+
+            <div class="comparison-grid">
+                <!-- Our Love -->
+                <div class="our-love-card glow-accent">
+                    <div class="card-header">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor" class="accent-icon"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+                        <h3>Nós</h3>
+                    </div>
+                    <ul class="features-list">
+                        <li><span class="check">✓</span> Maiu Miau Miau Miau Miau</li>
+                        <li><span class="check">✓</span> Comidinhas insanas</li>
+                        <li><span class="check">✓</span> Risadas atoas</li>
+                        <li><span class="check">✓</span> Homem irrita Mulher</li>
+                        <li><span class="check">✓</span> Games</li>
+                        <li><span class="check">✓</span> Nada de Drogas</li>
+                    </ul>
+                </div>
+
+                <!-- Other Couples -->
+                <div class="others-container">
+                    <div class="other-couple-card">
+                        <div class="couple-info">
+                            <img src="images/Dexter e Rita.jpg" alt="Dexter e Rita">
+                            <div class="couple-details">
+                                <h4>Dexter e Rita</h4>
+                                <ul class="fail-list">
+                                    <li>✗ Dexter não respeita Rita</li>
+                                    <li>✗ Rita traumatizada</li>
+                                    <li>✗ Momentos forçados</li>
+                                    <li>✗ Sem autenticidade</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="other-couple-card">
+                        <div class="couple-info">
+                            <img src="images/Jonathan e Nancy.jpg" alt="Jonathan e Nancy">
+                            <div class="couple-details">
+                                <h4>Jonathan e Nancy</h4>
+                                <ul class="fail-list">
+                                    <li>✗ Amor superficial</li>
+                                    <li>✗ Falta de sintonia</li>
+                                    <li>✗ Stranger Things estragou os 2</li>
+                                    <li>✗ Drogas acabaram com o menino</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="other-couple-card">
+                        <div class="couple-info">
+                            <img src="images/Jess.jpg" alt="Jesse e Jane">
+                            <div class="couple-details">
+                                <h4>Jesse e Jane</h4>
+                                <ul class="fail-list">
+                                    <li>✗ Só drogasl</li>
+                                    <li>✗ Muita briga</li>
+                                    <li>✗ Emos = Errado</li>
+                                    <li>✗ Walter White</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                </div>
+            </div>
+            <div class="best-story-card">
+                <p class="best-title">Somos a melhor história de amor que já existiu</p>
+                <p>Você é minha Deusa, minha princesa, meu tudo, <span class="accent-text">mi amor</span></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final Declaration -->
+    <section class="final-declaration">
+        <div class="container">
+            <h2 class="te-amo">Te Amo</h2>
+            <div class="declaration-text">
+                <p>Cada dia ao seu lado é um privilégio, <span class="accent-text">minha princesa</span>.</p>
+                <p>Você é a razão do meu sorriso, a luz dos meus dias, <span class="accent-text">minha Deusa</span>.</p>
+                <p>Com você descobri o que é amar de verdade, <span class="accent-text">mi amor</span>.</p>
+                <p class="final-highlight">Você é o amor da minha vida, agora e para sempre ❤️</p>
+            </div>
+            <div class="final-hearts">
+                <svg class="animate-heartbeat" width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+                <svg class="animate-heartbeat" style="animation-delay: 0.2s;" width="40" height="40" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+                <svg class="animate-heartbeat" style="animation-delay: 0.4s;" width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+            </div>
+        </div>
+    </section>
+
+    <!-- Other Couples Section -->
+    <section class="couples-section">
+        <div class="container">
+            <h2>Literalmente a gente que não deram certo</h2>
+            <div class="couples-grid">
+                <div class="couple-card">
+                    <img src="images/Dexter e Rita.jpg" alt="Dexter e Rita">
+                    <p>Dexter e Rita</p>
+                </div>
+                <div class="couple-card">
+                    <img src="images/Jonathan e Nancy.jpg" alt="Jonathan e Nancy">
+                    <p>Jonathan e Nancy</p>
+                </div>
+                <div class="couple-card">
+                    <img src="images/Jess.jpg" alt="Jesse e Jane">
+                    <p>Jesse e Jane</p>
+                </div>
+                <div class="couple-card">
+                    <img src="images/Mordecai.jpg" alt="Mordecai e Margaret">
+                    <p>Mordecai e Margaret</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
